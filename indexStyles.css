@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('seamlessBackground.jpg');
+    color: black;
+}
+
+header {
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    background-color: cyan;
+    margin-bottom: 20px;
+}
+
+footer {
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 20px;
+    background-color: cyan;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar-left {
+    padding: 0;
+    box-sizing: border-box;
+    flex: .5;
+    color: black;
+}
+
+.sidebar-right {
+    padding: 0;
+    box-sizing: border-box;
+    flex: .5;
+    color: black;
+}
+
+.content {
+    padding: 0px;
+    box-sizing: border-box;
+    flex: 1;
+    min-height: 400px;
+    text-align: center;
+}
+
+table {
+    width: 40%;
+    border-collapse: collapse;
+    border: none;
+}
+
+th {
+    padding: 5px;
+    text-align: left;
+    border: none;
+}
+
+td {
+    padding: 5px;
+    border: none;
+}
+
+tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+
+tr:nth-child(even) {
+    background-color: lightsteelblue;
+}
+
+span.change {
+    color: red;
+    font-weight: bold;
+}
+
